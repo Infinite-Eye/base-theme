@@ -15,7 +15,13 @@
         {
             "type": "vcs",
             "url": "https://github.com/Infinite-Eye/modal.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Infinite-Eye/media.git"
         }
     ],
-    "require": {}
+    "require": {
+        "infinite-eye/media": "dev-main"
+    }
 }
