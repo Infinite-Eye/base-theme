@@ -1,5 +1,13 @@
 <?php
 
+// Load composer
+$autoload = __DIR__ . '/vendor/autoload.php';
+if (!file_exists($autoload)) {
+    die('Need to run composer install');
+}
+require_once $autoload;
+
+
 add_action('wp_enqueue_scripts', function () {
     $asset = include get_parent_theme_file_path('public/css/main.asset.php');
 
