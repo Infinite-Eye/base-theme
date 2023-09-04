@@ -1,0 +1,21 @@
+{
+    "name": "infinite-eye/theme",
+    "autoload": {
+        "psr-4": {
+            "InfiniteEye\\Theme\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Infinite Eye",
+            "email": "hello@infinite-eye.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Infinite-Eye/modal.git"
+        }
+    ],
+    "require": {}
+}
