@@ -1,3 +1,20 @@
+# Installation
+
+1. Fork project and clone into WordPress theme folder.
+2. Install NPM Dependencies.
+```
+npm i --include=dev
+```
+3. Install Composer Dependencies
+```
+composer install
+```
+4. Build Project
+```
+npm run start
+```
+
+
 ## Output Images
 
 ### Display image full size
