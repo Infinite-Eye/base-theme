@@ -1,2 +1,2 @@
 <?php
-\InfiniteEye\Theme\Loop::content();
+\InfiniteEye\Query\Loop::content();

@@ -19,9 +19,14 @@
         {
             "type": "vcs",
             "url": "https://github.com/Infinite-Eye/media.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Infinite-Eye/query.git"
         }
     ],
     "require": {
-        "infinite-eye/media": "dev-main"
+        "infinite-eye/media": "dev-main",
+        "infinite-eye/query": "dev-main"
     }
 }
