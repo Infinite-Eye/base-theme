@@ -26,6 +26,12 @@ composer install
 npm run start
 ```
 
+Fetch changes from upstream fork
+```
+git fetch upstream
+git rebase upstream/master
+```
+
 
 ## Output Images
 
